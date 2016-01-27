@@ -12,4 +12,10 @@ main {
   width: 600px;
   margin-left: 30%;
 }
+nav {
+  flaot: left;
+  width: 100px;
+  height: 200px;
+  background-color: grey;
+}
 /*# sourceMappingURL=style.css.map */
