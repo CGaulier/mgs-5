@@ -14,10 +14,13 @@ main {
 }
 nav {
   flaot: left;
-  width: 100px;
-  height: 200px;
+  width: 250px;
+  height: 350px;
   background-color: grey;
   display: block;
+  margin: 3px;
+}
+nav a {
   margin: 3px;
 }
 /*# sourceMappingURL=style.css.map */
