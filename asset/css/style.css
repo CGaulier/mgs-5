@@ -1,10 +1,10 @@
 .main {
   width: 960px;
-  margin: 10px auto;
+  margin: 15px ;
 }
 .main > div {
   float: left;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 .clear {
   clear: both ;
@@ -25,6 +25,11 @@ a:hover {
 .content {
   width: 780px;
 }
+.content img {
+  width: 500px;
+  height: auto;
+  margin: 5px;
+}
 @media only screen and (min-width: 500px) and (max-width: 980px) {
   .main {
     width: 100%;
@@ -34,6 +39,11 @@ a:hover {
   }
   .content {
     width: 82.3%;
+  }
+  .content img {
+    width: 100%;
+    height: auto;
+    margin: 5px;
   }
   .etc {
     width: 99.9%;
@@ -50,6 +60,12 @@ a:hover {
   .etc {
     width: 98%;
     float: none;
+  }
+  .content img,
+  .etc img {
+    width: 100%;
+    height: auto;
+    margin: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
