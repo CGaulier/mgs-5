@@ -1,3 +1,14 @@
+.main {
+  width: 960px;
+  margin: 10px auto;
+}
+.main > div {
+  float: left;
+  margin: 0 10px;
+}
+.clear {
+  clear: both ;
+}
 h1 {
   color: #00ffff;
   text-align: center;
@@ -8,19 +19,37 @@ h3 {
 a:hover {
   color: green;
 }
-main {
-  width: 600px;
-  margin-left: 30%;
+.etc {
+  width: 940px;
 }
-nav {
-  flaot: left;
-  width: 250px;
-  height: 350px;
-  background-color: grey;
-  display: block;
-  margin: 3px;
+.content {
+  width: 780px;
 }
-nav a {
-  margin: 3px;
+@media only screen and (min-width: 500px) and (max-width: 980px) {
+  .main {
+    width: 100%;
+  }
+  .main > div {
+    margin: 0 0.5%;
+  }
+  .content {
+    width: 82.3%;
+  }
+  .etc {
+    width: 99.9%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    width: 100%;
+  }
+  .main > div {
+    margin: 0 1%;
+  }
+  .content,
+  .etc {
+    width: 98%;
+    float: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

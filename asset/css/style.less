@@ -1,6 +1,28 @@
 @color-primary: cyan;
 
 @color-sec: red;
+@column-width    : unit((96px / @font-root), rem);
+@font-root       : 16px;
+
+.main {
+	width : 960px;
+	margin : 10px auto;
+}
+.main > div {
+	float : left;
+	margin : 0 10px;
+}
+
+
+.clear { clear : both ; }
+
+.wrapper(@cols){
+	
+
+	width: @column-width * @cols;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 h1{
   color:@color-primary;
@@ -15,22 +37,42 @@ a:hover{
 	color:green;
 }
 
-main{
-	
-	width: 600px;
-	margin-left: 30%;
+
+
+
+
+.etc { width : 940px; }
+
+
+.content { width : 780px; }
+
+
+
+@media only screen and (min-width:500px) and (max-width:980px) {
+
+.main {
+		width : 100%;
+	}
+	.main > div { 
+		margin : 0 0.5%;
+	}
+
+	.content { width : 82.3%; }
+
+	.etc { width : 99.9%; }
 }
 
-nav{
-	
-	flaot:left;
-	width : 250px;
-	height:350px;
-	background-color:grey;
-	display: block;
-	margin: 3px;
-}
 
-nav a{
-	margin:3px;
+@media only screen and (max-width:500px) {
+.main {
+		width : 100%;
+	}
+	.main > div { 
+		margin : 0 1%;
+	}
+
+	.content, .etc{ 
+		width : 98%; 
+		float : none;
+	}
 }
