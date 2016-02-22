@@ -1,6 +1,5 @@
 .main {
-  width: 960px;
-  margin: 15px ;
+  width: 940px;
 }
 .main > div {
   float: left;
@@ -19,11 +18,32 @@ h3 {
 a:hover {
   color: green;
 }
+.menu {
+  width: 140px;
+  height: auto;
+  float: left;
+}
+.menu a {
+  text-decoration: none;
+  color: blue;
+}
+.btn {
+  display: block;
+  margin-top: 15px;
+}
+.menu a:hover {
+  color: red;
+}
+footer {
+  clear: both;
+  width: 940;
+}
 .etc {
   width: 940px;
 }
 .content {
   width: 780px;
+  float: right;
 }
 .content img {
   width: 500px;
@@ -37,8 +57,13 @@ a:hover {
   .main > div {
     margin: 0 0.5%;
   }
+  .menu {
+    width: 15.6%;
+    float: left;
+    clear: both;
+  }
   .content {
-    width: 82.3%;
+    width: 84%;
   }
   .content img {
     width: 100%;
@@ -46,7 +71,7 @@ a:hover {
     margin: 5px;
   }
   .etc {
-    width: 99.9%;
+    width: 82.3%;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -57,15 +82,17 @@ a:hover {
     margin: 0 1%;
   }
   .content,
-  .etc {
+  .etc,
+  .menu {
     width: 98%;
     float: none;
   }
   .content img,
-  .etc img {
-    width: 100%;
+  .etc img,
+  .menu img {
+    width: 98%;
     height: auto;
-    margin: 5px;
+    margin-right: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */

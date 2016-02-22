@@ -5,8 +5,8 @@
 @font-root       : 16px;
 
 .main {
-	width : 960px;
-	margin : 15px ;
+	width : 940px;
+
 
 }
 .main > div {
@@ -39,13 +39,38 @@ a:hover{
 }
 
 
+.menu{
+	width : 140px;
+	height:auto;
+	float:left;
 
 
+}
+.menu a{
+	text-decoration:none;
+	color:blue;
+
+
+}
+
+.btn{
+	display:block;
+	margin-top:15px;
+}
+
+.menu a:hover{
+color:red;
+}
+
+footer{
+clear:both;
+	width:940;
+}
 
 .etc { width : 940px; }
 
 
-.content { width : 780px; img{width:500px;height:auto; margin:5px;}}
+.content { width : 780px; img{width:500px;height:auto; margin:5px;} float:right;}
 
 
 
@@ -58,9 +83,11 @@ a:hover{
 		margin : 0 0.5%;
 	}
 
-	.content { width : 82.3%; img{width:100%; height:auto;margin:5px;} }
+	.menu{width : 15.6%; float:left;clear:both; }
 
-	.etc { width : 99.9%; }
+	.content { width : 84%; img{width:100%; height:auto;margin:5px;} }
+
+	.etc { width : 82.3%; }
 }
 
 
@@ -72,11 +99,11 @@ a:hover{
 		margin : 0 1%;
 	}
 
-	.content, .etc{ 
+	.content, .etc, .menu{ 
 		width : 98%; 
 		float : none;
-		img{width:100%;
+		img{width:98%;
 		height:auto;
-		margin:5px;}
+		margin-right:5px;}
 	}
 }
