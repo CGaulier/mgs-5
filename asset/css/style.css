@@ -1,5 +1,7 @@
 .main {
-  width: 940px;
+  width: 93.0rem;
+  background-color: #eeeeee;
+  color: #4d4d4d;
 }
 .main > div {
   float: left;
@@ -9,7 +11,7 @@
   clear: both ;
 }
 h1 {
-  color: #00ffff;
+  color: #ff0000;
   text-align: center;
 }
 h3 {
@@ -19,17 +21,18 @@ a:hover {
   color: green;
 }
 .menu {
-  width: 140px;
+  width: 10.0rem;
   height: auto;
   float: left;
 }
 .menu a {
   text-decoration: none;
-  color: blue;
+  color: #8e0c0c;
+  font-size: 1.5rem;
 }
 .btn {
   display: block;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .menu a:hover {
   color: red;
@@ -39,14 +42,15 @@ footer {
   width: 940;
 }
 .etc {
-  width: 940px;
+  width: 94.0rem;
 }
 .content {
-  width: 780px;
+  width: 78.0rem;
   float: right;
+  line-height: 1.5rem;
 }
 .content img {
-  width: 500px;
+  width: 50.0rem;
   height: auto;
   margin: 5px;
 }
