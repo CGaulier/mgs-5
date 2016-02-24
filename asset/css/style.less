@@ -1,7 +1,7 @@
-@color-primary: red;
+@color-primary: #8e0c0c;
 
 @color-sec: red;
-@column-width    : unit((96px / @font-root), rem);
+@column-width    : unit((9.6rem / @font-root), rem);
 @font-root       : 1.9rem;
 
 .main {
@@ -13,7 +13,7 @@
 }
 .main > div {
 	float : left;
-	margin : 0 15px;
+	margin : 0 1.5rem;
 }
 
 
@@ -51,14 +51,15 @@ a:hover{
 .menu a{
 	text-decoration:none;
 	color:#8e0c0c;
-	font-size: 1.5rem;
+	font-size: 1em;
+	margin-right:0.5rem;
 
 
 }
 
 .btn{
 	display:block;
-	margin-top:10px;
+	margin-top:1.1em;
 }
 
 .menu a:hover{
@@ -67,17 +68,17 @@ color:red;
 
 footer{
 clear:both;
-	width:940;
+	width:94.0rem;
 }
 
 .etc { width : 94.0rem; }
 
 
-.content { width : 78.0rem; img{width:50.0rem;height:auto; margin:5px;} float:right;line-height:1.5rem;}
+.content { width : 78.0rem; img{width:50.0rem;height:auto; margin:0.5rem;} float:right;line-height:1.5rem;margin-right:0.1rem;font-family:'Titillium Web'}
 
 
 
-@media only screen and (min-width:500px) and (max-width:980px) {
+@media only screen and (min-width:50.0rem) and (max-width:98.0rem) {
 
 .main {
 		width : 100%;
@@ -88,13 +89,13 @@ clear:both;
 
 	.menu{width : 15.6%; float:left;clear:both; }
 
-	.content { width : 84%; img{width:100%; height:auto;margin:5px;} }
+	.content { width : 84%; img{width:100%; height:auto;margin:5px;} line-height:1.5rem;}
 
 	.etc { width : 82.3%; }
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:50.0rem) {
 .main {
 		width : 100%;
 	}
@@ -107,6 +108,7 @@ clear:both;
 		float : none;
 		img{width:98%;
 		height:auto;
-		margin-right:5px;}
+		margin-right:5px;
+		line-height:1.5rem}
 	}
 }

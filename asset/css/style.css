@@ -5,13 +5,13 @@
 }
 .main > div {
   float: left;
-  margin: 0 15px;
+  margin: 0 1.5rem;
 }
 .clear {
   clear: both ;
 }
 h1 {
-  color: #ff0000;
+  color: #8e0c0c;
   text-align: center;
 }
 h3 {
@@ -28,18 +28,19 @@ a:hover {
 .menu a {
   text-decoration: none;
   color: #8e0c0c;
-  font-size: 1.5rem;
+  font-size: 1em;
+  margin-right: 0.5rem;
 }
 .btn {
   display: block;
-  margin-top: 10px;
+  margin-top: 1.1em;
 }
 .menu a:hover {
   color: red;
 }
 footer {
   clear: both;
-  width: 940;
+  width: 94.0rem;
 }
 .etc {
   width: 94.0rem;
@@ -48,13 +49,15 @@ footer {
   width: 78.0rem;
   float: right;
   line-height: 1.5rem;
+  margin-right: 0.1rem;
+  font-family: 'Titillium Web';
 }
 .content img {
   width: 50.0rem;
   height: auto;
-  margin: 5px;
+  margin: 0.5rem;
 }
-@media only screen and (min-width: 500px) and (max-width: 980px) {
+@media only screen and (min-width: 50rem) and (max-width: 98rem) {
   .main {
     width: 100%;
   }
@@ -68,6 +71,7 @@ footer {
   }
   .content {
     width: 84%;
+    line-height: 1.5rem;
   }
   .content img {
     width: 100%;
@@ -78,7 +82,7 @@ footer {
     width: 82.3%;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 50rem) {
   .main {
     width: 100%;
   }
@@ -97,6 +101,7 @@ footer {
     width: 98%;
     height: auto;
     margin-right: 5px;
+    line-height: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
